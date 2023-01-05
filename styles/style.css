@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap");
-
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -7,10 +7,49 @@
 }
 
 main {
-  max-width: 1240px;
+  max-width: 1280px;
   margin: 0 auto;
 }
 
+/* =========== Hero Section Styles ========= */
+
 .hero {
-  background-image: url("../images/hero.jpg");
+  background-image: url("../images/hero.jpg"), url("../images/shadow.png");
+  width: 100%;
+  height: 100vh;
+  background-blend-mode: overlay;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-position: center;
+}
+
+.hero .hero-content {
+  text-align: center;
+  padding: 174px 307px 175px 307px;
+}
+
+.hero-title {
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 55px;
+  color: #ffffff;
+  margin-bottom: 10px;
+}
+
+.hero-description {
+  font-family: "Poppins", sans-serif !important;
+  font-size: 18px;
+  line-height: 24px;
+  color: #ffffff;
+  margin-bottom: 15px;
+}
+
+.btn-primary {
+  padding: 12px 16px;
+  background: #ff5959;
+  color: #ffffff;
+  border-radius: 5px;
+  border: none;
 }
