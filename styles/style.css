@@ -17,6 +17,10 @@ h6 {
   font-family: "Inter", sans-serif;
 }
 
+button {
+  cursor: pointer;
+}
+
 .hero {
   margin-top: 0;
   background-image: url("../images/hero.jpg"), url("../images/shadow.png");
@@ -56,6 +60,8 @@ h6 {
   color: #ffffff;
   border-radius: 5px;
   border: none;
+  font-weight: 600;
+  font-size: 20px;
 }
 
 /* =========== Donate Section Styles ========= */
@@ -165,4 +171,29 @@ p {
 .plan-box:nth-child(3) {
   background: #fff4d6;
   border-radius: 5px;
+}
+
+/* ============ Lives Section Style ============  */
+
+.lives {
+  padding: 50px 150px;
+}
+
+.lives-container {
+  display: flex;
+  align-items: center;
+  gap: 38px;
+  margin-top: 24px;
+}
+
+.lives-title {
+  font-weight: 700;
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+.lives-description {
+  font-size: 18px;
+  color: #707070;
+  margin-bottom: 20px;
 }
