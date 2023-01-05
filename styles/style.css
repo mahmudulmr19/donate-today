@@ -8,6 +8,15 @@
 
 /* =========== Hero Section Styles ========= */
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Inter", sans-serif;
+}
+
 .hero {
   margin-top: 0;
   background-image: url("../images/hero.jpg"), url("../images/shadow.png");
@@ -100,4 +109,60 @@ p {
 
 .donate .btn-primary {
   margin-top: 25px;
+}
+
+/* ============ Donate Plane Section Style ============  */
+.donate-plan-container {
+  padding: 0px 150px;
+  text-align: center;
+}
+
+.donate-plan-title {
+  font-weight: 700;
+  font-size: 40px;
+  color: #121212;
+  margin-bottom: 25px;
+}
+
+.donate-plan-description {
+  font-size: 18px;
+  line-height: 28px;
+  color: #707070;
+}
+
+.plan-boxs {
+  display: flex;
+  gap: 24px;
+  margin-top: 35px;
+}
+
+.plan-box {
+  background: rgba(79, 157, 166, 0.1);
+  border-radius: 5px;
+  padding: 50px 44px;
+}
+
+.plan-box img {
+  margin-right: 100%;
+  margin-bottom: 24px;
+}
+
+.plan-box-title {
+  text-align: left;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.plan-box-description {
+  text-align: left;
+  margin-top: 18px;
+}
+
+.plan-box:nth-child(2) {
+  background: rgba(255, 89, 89, 0.1);
+  border-radius: 5px;
+}
+.plan-box:nth-child(3) {
+  background: #fff4d6;
+  border-radius: 5px;
 }
