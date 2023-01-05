@@ -6,14 +6,10 @@
   font-family: "Inter", sans-serif;
 }
 
-main {
-  max-width: 1280px;
-  margin: 0 auto;
-}
-
 /* =========== Hero Section Styles ========= */
 
 .hero {
+  margin-top: 0;
   background-image: url("../images/hero.jpg"), url("../images/shadow.png");
   width: 100%;
   height: 100vh;
@@ -22,7 +18,6 @@ main {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-position: center;
 }
 
 .hero .hero-content {
@@ -52,4 +47,57 @@ main {
   color: #ffffff;
   border-radius: 5px;
   border: none;
+}
+
+/* =========== Donate Section Styles ========= */
+
+.donate {
+  padding: 120px 328px;
+  text-align: center;
+}
+
+.donate-title {
+  font-size: 40px;
+  line-height: 50px;
+  color: #121212;
+  margin-bottom: 20px;
+}
+
+.donate-description {
+  font-family: "Poppins";
+  font-size: 18px;
+  color: #707070;
+}
+
+.boxs {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.box {
+  background: #fafafa;
+  border-radius: 5px;
+  padding: 35px 25px;
+}
+
+.box:nth-child(2) {
+  background: #ffeeee;
+  border: 2px solid #ff5959;
+  border-radius: 5px;
+}
+
+p {
+  font-family: "Poppins";
+  font-size: 18px;
+}
+
+.bd-tk {
+  color: #707070;
+  margin-top: 45px;
+  margin-bottom: 5px;
+}
+
+.donate .btn-primary {
+  margin-top: 25px;
 }
