@@ -1,5 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Manrope&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -196,4 +198,79 @@ p {
   font-size: 18px;
   color: #707070;
   margin-bottom: 20px;
+}
+
+.update {
+  padding: 100px 300px;
+}
+
+.update-container {
+  padding: 100px 300px;
+  background: #fff4d6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.update-title {
+  font-weight: 700;
+  font-size: 45px;
+  margin-bottom: 20px;
+  text-align: center;
+  color: #121212;
+}
+
+.update-description {
+  font-size: 18px;
+  color: #707070;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.update input[type="email"] {
+  padding: 14px 24px;
+  outline: none;
+  border: none;
+  background: #d9d9d9;
+  border-radius: 5px 0px 0px 5px;
+}
+
+.update input[type="email"]:focus {
+  outline: 1px solid #ff5959;
+}
+
+.update input[type="submit"] {
+  padding: 14px 28px;
+  color: #ffffff;
+  cursor: pointer;
+  border: none;
+  background: #ff5959;
+  border-radius: 0px 5px 5px 0px;
+}
+
+footer {
+  background: #0b0d17;
+}
+
+footer .content {
+  padding: 24px 34px;
+  text-align: center;
+}
+
+footer .content .logo {
+  font-size: 36px;
+  line-height: 44px;
+  letter-spacing: 0.5px;
+  font-family: "Lobster", sans-serif !important;
+  margin-top: 4px;
+  margin-bottom: 4px;
+  color: #ff5959;
+}
+
+footer .content .logo-description {
+  font-family: "Manrope", sans-serif;
+  font-size: 14px;
+  line-height: 24px;
+  font-feature-settings: "liga" off;
+  color: #d9dbe1;
 }
